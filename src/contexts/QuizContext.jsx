@@ -84,13 +84,7 @@ function QuizProvider({ children }) {
   );
 
   useEffect(function () {
-    fetch(
-      "https://github.com/prabhsingh20/react-quiz/blob/main/data/questions.json",
-      {
-        mode: "no-cors",
-      }
-    )
-      // fetch("http://localhost:7000/questions")
+    fetch("http://localhost:7000/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch(() => dispatch({ type: "dataFailed" }));
