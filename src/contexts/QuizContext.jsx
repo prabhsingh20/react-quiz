@@ -84,7 +84,8 @@ function QuizProvider({ children }) {
   );
 
   useEffect(function () {
-    fetch("http://localhost:7000/questions")
+    fetch("https://prabhsingh20.github.io/react-quiz/questions.json")
+      // fetch("http://localhost:7000/questions")
       .then((res) => res.json())
       // .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .then((data) => console.log(data))
