@@ -1,5 +1,3 @@
-// {
-//   "questions":
 [
   {
     "question": "Which is the most popular JavaScript framework?",
@@ -137,4 +135,3 @@
     "points": 20
   }
 ]
-// }
