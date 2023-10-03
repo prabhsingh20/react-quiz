@@ -78,17 +78,13 @@ function QuizProvider({ children }) {
   ] = useReducer(reducer, initialState);
 
   const numQuestions = questions.length;
-  const maxPossiblePoints = questions.reduce(
-    (prev, cur) => prev + cur.points,
-    0
-  );
+
+  const maxPossiblePoints = 280;
 
   useEffect(function () {
     fetch("https://prabhsingh20.github.io/react-quiz/questions.json")
-      // fetch("http://localhost:7000/questions")
       .then((res) => res.json())
-      // .then((data) => dispatch({ type: "dataReceived", payload: data }))
-      .then((data) => console.log(data))
+      .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch(() => dispatch({ type: "dataFailed" }));
   }, []);
 
