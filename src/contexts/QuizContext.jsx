@@ -82,7 +82,7 @@ function QuizProvider({ children }) {
   const maxPossiblePoints = 280;
 
   useEffect(function () {
-    fetch("https://prabhsingh20.github.io/react-quiz/questions.json")
+    fetch("https://prabhsingh20.github.io/react-quiz/data/questions.json")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataReceived", payload: data }))
       .catch(() => dispatch({ type: "dataFailed" }));
