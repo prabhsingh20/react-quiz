@@ -1,5 +1,5 @@
 # The-React-Quiz
 
-Check out your React knowledge with a simple react quiz in which 
+Check out your React knowledge with a simple react quiz 
 <br/>
-"useReducer" is used to manage state.
+in which "useReducer" is used to manage state.
