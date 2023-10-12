@@ -1,3 +1,4 @@
 # The-React-Quiz
 
-A simple react quiz in which "useReducer" is used to manage state.
+Check out your knowledge with a simple react quiz in which 
+<br/>"useReducer" is used to manage state.
