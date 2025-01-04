@@ -14,21 +14,48 @@ Key Features:
 
 ---
 
-## Cloning the Project
+## How to Clone and Run the Project
 
-To get started with **The-React-Quiz**, follow these steps to clone the repository and set up the project locally.
+Follow these steps to clone the project and run it on your local machine.
 
 ### Prerequisites
 
-Before you begin, make sure you have the following installed:
-- **Node.js** (v16 or later)
-- **npm** or **yarn** (for managing dependencies)
+- Ensure you have **Node.js** installed. You can download it from [here](https://nodejs.org/).
+- You should have **Git** installed. Download it from [here](https://git-scm.com/).
 
-### Steps to Clone and Set Up
+### Steps to Clone and Run:
 
-1. **Clone the Repository**
+1. **Clone the repository**
 
-   Open your terminal and run the following command to clone the repository:
+   Open your terminal and run the following command to clone the project:
 
    ```bash
-   git clone https://github.com/prabhsingh20/The-React-Quiz.git
+   git clone https://github.com/prabhsingh20/react-quiz
+   
+2. **Navigate to the project directory**
+
+   Change into the project directory by running:
+
+   ```bash
+   cd brainware
+   
+3. **Install dependencies**
+
+   Run the following command to install the necessary dependencies:
+
+   ```bash
+   npm install
+
+4. **Start the development server**
+
+   Once the dependencies are installed, you can start the app by running:
+
+   ```bash
+   npm run dev 
+  This will start the Vite development server and you should see the application running at http://localhost:3000.
+
+  ## License
+  
+  This project is open-source and available under the MIT License. See the LICENSE file for more information.
+
+  **✨Feel free to open issues or contribute to this project. If you have any questions or feedback, don't hesitate to reach out!✨**
